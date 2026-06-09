@@ -31,8 +31,7 @@ public class SecurityConfigDev {
         configuration.addAllowedOrigin("http://localhost:5173"); // React(BO)
         configuration.addAllowedOrigin("https://job.estsw.co.kr");
         configuration.addAllowedOrigin("https://admin-job.estsw.co.kr");
-        configuration.addAllowedOrigin("https://freelancer-service-git-phase260518-grace-freelancer-project.vercel.app");
-        configuration.addAllowedMethod("*");
+        configuration.addAllowedOrigin("https://freelancer-service-git-phase6260518-grace-freelancer-project.vercel.app");        configuration.addAllowedMethod("*");
         configuration.addAllowedHeader("*");
         configuration.setAllowCredentials(true); // 쿠키 허용
 
