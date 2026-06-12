@@ -32,7 +32,7 @@ public class SecurityConfigDev {
         configuration.addAllowedOrigin("https://job.estsw.co.kr");
         configuration.addAllowedOrigin("https://admin-job.estsw.co.kr");
         configuration.addAllowedOrigin("https://freelancer-service-git-phase6260518-grace-freelancer-project.vercel.app");
-        configuration.addAllowedOrigin("https://freelancer-service-9do4-6wfjhdzrr-grace-freelancer-project.vercel.app");
+        configuration.addAllowedOriginPattern("https://*.vercel.app");
         configuration.addAllowedMethod("*");
         configuration.addAllowedHeader("*");
         configuration.setAllowCredentials(true); // 쿠키 허용
